@@ -1,0 +1,31 @@
+{
+  "name": "webdriverio_v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarooqKhalid-SDET/webdriverio_v1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarooqKhalid-SDET/webdriverio_v1/issues"
+  },
+  "homepage": "https://github.com/FarooqKhalid-SDET/webdriverio_v1#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.16.12"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.16.11",
+    "@wdio/local-runner": "^7.16.12",
+    "@wdio/mocha-framework": "^7.16.11",
+    "@wdio/spec-reporter": "^7.16.11",
+    "chromedriver": "^97.0.0",
+    "wdio-chromedriver-service": "^7.2.6"
+  }
+}
