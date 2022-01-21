@@ -1,0 +1,161 @@
+{
+  "uid" : "bf25faef5ec5dd4c",
+  "name" : "wait for the hidden element to show",
+  "fullName" : "Dynamic Loading Page.wait for the hidden element to show",
+  "historyId" : "5b1835f76480f20eab5e1f28619499fc",
+  "time" : {
+    "start" : 1642700545442,
+    "stop" : 1642700545546,
+    "duration" : 104
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\test\\specs\\dynamic-loading.e2e.js:12:42)\n                    at Context.executeAsync (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\test\\specs\\dynamic-loading.e2e.js:12:42)\n                    at Context.executeAsync (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1642700545448,
+        "stop" : 1642700545546,
+        "duration" : 98
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\test\\specs\\dynamic-loading.e2e.js:12:42)\n                    at Context.executeAsync (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1642700545453,
+          "stop" : 1642700545546,
+          "duration" : 93
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\test\\specs\\dynamic-loading.e2e.js:12:42)\n                    at Context.executeAsync (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1642700545455,
+            "stop" : 1642700545546,
+            "duration" : 91
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\test\\specs\\dynamic-loading.e2e.js:12:42)\n                    at Context.executeAsync (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/url",
+            "time" : {
+              "start" : 1642700545457,
+              "stop" : 1642700545545,
+              "duration" : 88
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "766a71010597f388",
+              "name" : "Request",
+              "source" : "766a71010597f388.json",
+              "type" : "application/json",
+              "size" : 67
+            }, {
+              "uid" : "1836a673930d3d74",
+              "name" : "Screenshot",
+              "source" : "1836a673930d3d74.png",
+              "type" : "image/png",
+              "size" : 3480
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "ef1cec4a47e16d5d",
+          "name" : "Request",
+          "source" : "ef1cec4a47e16d5d.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "b4eb4662b6df2b11",
+        "name" : "Request",
+        "source" : "b4eb4662b6df2b11.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf25faef5ec5dd4c.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

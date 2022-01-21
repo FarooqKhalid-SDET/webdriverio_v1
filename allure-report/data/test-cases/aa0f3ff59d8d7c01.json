@@ -1,0 +1,139 @@
+{
+  "uid" : "aa0f3ff59d8d7c01",
+  "name" : "Verify List Items",
+  "fullName" : "Main Page.Verify List Items",
+  "historyId" : "f1ed477f83c4659129cad47d0e193f12",
+  "time" : {
+    "start" : 1641762975321,
+    "stop" : 1641762975426,
+    "duration" : 105
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(...).toBeElementArrayOfSize is not a function",
+  "statusTrace" : "TypeError: expect(...).toBeElementArrayOfSize is not a function\n                    at Context.<anonymous> (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\test\\specs\\main.e2e.js:6:30)\n                    at Context.executeAsync (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(...).toBeElementArrayOfSize is not a function",
+    "statusTrace" : "TypeError: expect(...).toBeElementArrayOfSize is not a function\n                    at Context.<anonymous> (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\test\\specs\\main.e2e.js:6:30)\n                    at Context.executeAsync (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641762975325,
+        "stop" : 1641762975426,
+        "duration" : 101
+      },
+      "status" : "failed",
+      "statusMessage" : "TypeError: expect(...).toBeElementArrayOfSize is not a function\n                    at Context.<anonymous> (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\test\\specs\\main.e2e.js:6:30)\n                    at Context.executeAsync (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1641762975336,
+          "stop" : 1641762975426,
+          "duration" : 90
+        },
+        "status" : "failed",
+        "statusMessage" : "TypeError: expect(...).toBeElementArrayOfSize is not a function\n                    at Context.<anonymous> (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\test\\specs\\main.e2e.js:6:30)\n                    at Context.executeAsync (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\faroo\\Farooq\\wdio_v1\\webdriverio_v1\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1641762975338,
+            "stop" : 1641762975425,
+            "duration" : 87
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "43aa4eb24a690d5e",
+            "name" : "Request",
+            "source" : "43aa4eb24a690d5e.json",
+            "type" : "application/json",
+            "size" : 50
+          }, {
+            "uid" : "3e706d8c80c8411",
+            "name" : "Screenshot",
+            "source" : "3e706d8c80c8411.png",
+            "type" : "image/png",
+            "size" : 3480
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d028fee2f81d466a",
+        "name" : "Request",
+        "source" : "d028fee2f81d466a.json",
+        "type" : "application/json",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify List Items"
+  }, {
+    "name" : "package",
+    "value" : "Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa0f3ff59d8d7c01.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

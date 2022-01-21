@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jan 21 10:14:14 PKT 2022","Fri Jan 21 10:14:23 PKT 2022","9033","","Dynamic Loading Page","","Dynamic Loading Page","wait for the hidden element to show","wait for the hidden element to show",""
+"passed","Fri Jan 21 10:14:13 PKT 2022","Fri Jan 21 10:14:21 PKT 2022","7667","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"broken","Sun Jan 09 18:38:54 PKT 2022","Sun Jan 09 18:38:54 PKT 2022","89","","My Login application","","My Login application","Should logout & verify logout alert message","Should logout & verify logout alert message",""
+"passed","Fri Jan 21 10:14:21 PKT 2022","Fri Jan 21 10:14:22 PKT 2022","660","","My Login application","","My Login application","Should logout and verify logout alert message","Should logout and verify logout alert message",""
+"passed","Fri Jan 21 10:14:14 PKT 2022","Fri Jan 21 10:14:19 PKT 2022","5257","","Main Page","","Main Page","Verify List Items","Verify List Items",""

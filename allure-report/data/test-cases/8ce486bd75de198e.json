@@ -1,0 +1,236 @@
+{
+  "uid" : "8ce486bd75de198e",
+  "name" : "Should logout and verify logout alert message",
+  "fullName" : "My Login application.Should logout and verify logout alert message",
+  "historyId" : "4b49ae96deebe904c61f393647bc8048",
+  "time" : {
+    "start" : 1642742061384,
+    "stop" : 1642742062044,
+    "duration" : 660
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1642742061385,
+        "stop" : 1642742061399,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a104504c6257f05b",
+        "name" : "Request",
+        "source" : "a104504c6257f05b.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "f708e93df27bbbb2",
+        "name" : "Response",
+        "source" : "f708e93df27bbbb2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/de9a788c-5895-410e-96fc-9ccf6e34263d/click",
+      "time" : {
+        "start" : 1642742061405,
+        "stop" : 1642742062000,
+        "duration" : 595
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1642742062000,
+        "stop" : 1642742062015,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af6762be11a10d2d",
+        "name" : "Request",
+        "source" : "af6762be11a10d2d.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "604defc5d2f976b2",
+        "name" : "Response",
+        "source" : "604defc5d2f976b2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/698df9fa-3936-4414-8b1f-cfa9f17bfd41/text",
+      "time" : {
+        "start" : 1642742062021,
+        "stop" : 1642742062042,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ef33e27018f7645",
+        "name" : "Response",
+        "source" : "7ef33e27018f7645.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should logout and verify logout alert message"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b9c5769c65274e2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642741699518,
+        "stop" : 1642741700599,
+        "duration" : 1081
+      }
+    }, {
+      "uid" : "e30787f9f287195d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642741644448,
+        "stop" : 1642741645165,
+        "duration" : 717
+      }
+    }, {
+      "uid" : "7ff1463a6d06b6c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642700330192,
+        "stop" : 1642700330198,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "d97a9e764a14fdce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641762557446,
+        "stop" : 1641762557465,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "518d7524b0b35428",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641736210549,
+        "stop" : 1641736210555,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "9fb42bb02add00c5",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1641736047881,
+        "stop" : 1641736047970,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "9829785dd348f811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641735855391,
+        "stop" : 1641735855402,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "70a3af61cfb2195c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641735806232,
+        "stop" : 1641735806238,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "603b30af696eeca3",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1641735675995,
+        "stop" : 1641735676084,
+        "duration" : 89
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ce486bd75de198e.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

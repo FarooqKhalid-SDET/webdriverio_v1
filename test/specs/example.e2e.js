@@ -12,14 +12,9 @@ describe('My Login application', () => {
     });
 
     it('Should logout and verify logout alert message', () => {
-        //const btnLogout = $('a[href="/logout"]')
-        //const flashAlert = $('#flash')
-
-        //btnLogout.click();
+        //await SecurePage.btnLogout.waitForClickable({timeout: 3000});
         SecurePage.btnLogout.click();
         expect(SecurePage.flashAlert).toHaveTextContaining("You logged out of the secure area!");
-        //SecurePage.btnLogout.click();
-        //expect(SecurePage.flashAlert).toHaveTextContaining("You logged out of the secure area!");
     });
 });
 

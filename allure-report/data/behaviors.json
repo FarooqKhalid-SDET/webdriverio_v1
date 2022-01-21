@@ -1,0 +1,90 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Should logout & verify logout alert message",
+    "uid" : "ee02832823377f3a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1641735534052,
+      "stop" : 1641735534141,
+      "duration" : 89
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "should login with valid credentials",
+    "uid" : "12645962198f72e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642742053717,
+      "stop" : 1642742061384,
+      "duration" : 7667
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 14,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "wait for the hidden element to show",
+    "uid" : "16929cbefd8162e4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642742054107,
+      "stop" : 1642742063140,
+      "duration" : 9033
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 20,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify List Items",
+    "uid" : "129f1f8486fda2b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642742054158,
+      "stop" : 1642742059415,
+      "duration" : 5257
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 11,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Should logout and verify logout alert message",
+    "uid" : "8ce486bd75de198e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642742061384,
+      "stop" : 1642742062044,
+      "duration" : 660
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  } ]
+}

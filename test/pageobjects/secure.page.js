@@ -13,7 +13,7 @@ class SecurePage extends Page {
         return $('#flash');
     }
 
-    get btnLogout(){  return $('a[href="/logout"]') }
+    get btnLogout(){  return $('a[href="/logout"]'); }
 }
 
 module.exports = new SecurePage();
