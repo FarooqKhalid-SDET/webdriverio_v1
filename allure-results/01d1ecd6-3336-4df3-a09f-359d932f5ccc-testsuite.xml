@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642761324350' stop='1642761328086'>
+    <name>Main Page</name>
+    <title>Main Page</title>
+    <test-cases>
+        <test-case start='1642761324350' status='broken' stop='1642761328085'>
+            <name>Verify List Items</name>
+            <title>Verify List Items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642761324355' status='passed' stop='1642761327971'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5829904d-dd88-492c-812b-2df4b98abc4f-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642761327972' status='passed' stop='1642761328084'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4fd2f12d-08c4-475a-9765-19cc810e9da0-attachment.png' type='image/png' size='50289'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>internetPage.getLiText is not a function</message>
+                <stack-trace>TypeError: internetPage.getLiText is not a function
+                    at Context.&lt;anonymous> (C:\Users\faroo\Farooq\wdio_v1\webdriverio_v1\test\specs\main.e2e.js:10:22)
+                    at Context.executeSync (C:\Users\faroo\Farooq\wdio_v1\webdriverio_v1\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\faroo\Farooq\wdio_v1\webdriverio_v1\node_modules\@wdio\sync\build\index.js:69:73</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
